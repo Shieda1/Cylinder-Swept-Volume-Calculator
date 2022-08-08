@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cylinder Swept Volume Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="cylinderSweptVolumeRadio" name="variables" checked>
+  <label for="cylinderSweptVolumeRadio">Cylinder Swept Volume</label>
+  
+  <input type="radio" id="cylinderDiameterRadio" name="variables">
+  <label for="cylinderDiameterRadio">Cylinder Diameter</label>
+
+  <input type="radio" id="strokeLengthRadio" name="variables">
+  <label for="strokeLengthRadio">Stroke Length</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">Cylinder Diameter (cm)</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Stroke Length (cm)</label>
+  <input type="number" id="v2"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
